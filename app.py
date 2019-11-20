@@ -152,7 +152,7 @@ def grading():
     if len(correct_answers) > 6:
         print("You Passed! You Truely are a Lord of The Rings fan!")
     else:
-        print("Sorry you didn't pass")
+        print("Sorry you didn't pass ")
 #CALLING QUESTION FUNCTIONS
 question1()
 question2()
@@ -166,5 +166,4 @@ question9()
 question10()
 print("You got these questions correct: " + str(correct_answers))
 print("You got these questions incorrect: " + str(incorrect_answers))
-
 grading()
